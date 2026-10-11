@@ -2,7 +2,7 @@
 
 Grades a private credit deal on coverage, leverage and collateral, shows which assumptions move the score most and drafts a short investment committee memo.
 
-Live: https://jk-cu-ms-ds.github.io/private-credit-screener/
+Live: https://alenzacodes.github.io/private-credit-screener/
 
 ## How to use
 
