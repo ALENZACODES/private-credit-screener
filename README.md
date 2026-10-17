@@ -32,6 +32,14 @@ Open `index.html` in a browser, or serve the folder with `python3 -m http.server
 
 18 checks on debt service (amortizing and interest-only), the metrics, the scoring and the sensitivity ranges. They run on every push.
 
+## Files
+
+    index.html, style.css   the page
+    app.js                  inputs, grade, sensitivity chart and memo
+    calc.js                 debt service, metrics, scoring and sensitivity, usable in Node
+    charts.js               small SVG charts, no libraries
+    tests/test.js           unit tests
+
 ## Data
 
 There's no outside data feed. Every deal in the app is a made-up example built to show the method, and the formulas are standard commercial real estate lending definitions (LTV, DSCR, debt yield, cap rate valuation). Don't enter real borrower information.
