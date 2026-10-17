@@ -4,11 +4,25 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Private Credit Deal Screener | John Khan</title>
+    <meta property="og:title" content="Private Credit Deal Screener" />
+    <meta
+      property="og:description"
+      content="Scores a deal on coverage, leverage and collateral, and drafts a short credit memo."
+    />
+    <meta property="og:image" content="https://alenzacodes.github.io/private-credit-screener/docs/social-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="author" content="John Khan" />
     <meta
       name="description"
       content="Score a fictional private real estate loan on LTV, DSCR, debt yield and exit risk, see what drives the score, and draft an IC memo."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Pinyon+Script&display=swap"
+    />
+    <link rel="stylesheet" href="theme/waves.css" />
     <link rel="stylesheet" href="style.css" />
     <style>
       .grade {
@@ -40,8 +54,8 @@
       }
     </style>
   </head>
-  <body>
-    <header class="top">
+  <body class="w-headings">
+    <header class="top w-wave">
       <div class="brand">
         <div class="logo" aria-hidden="true">PC</div>
         <div>
@@ -70,8 +84,8 @@
             <h2>Sensitivity: what moves the score</h2>
             <div id="tornado"></div>
             <div class="legend">
-              <span><i style="background: #ef5b6b"></i>low case</span
-              ><span><i style="background: #2ecc8f"></i>high case</span><span>dashed line = base score</span>
+              <span><i style="background: #b3261e"></i>low case</span
+              ><span><i style="background: #1b6b3a"></i>high case</span><span>dashed line = base score</span>
             </div>
           </div>
           <div class="card">
@@ -96,7 +110,7 @@
         </ul>
       </div>
     </main>
-    <footer class="foot">Educational only, not financial advice. John Khan.</footer>
+    <footer class="foot">Educational only, not financial advice. <span class="w-script">John Khan</span></footer>
     <script src="charts.js"></script>
     <script src="calc.js"></script>
     <script src="app.js"></script>

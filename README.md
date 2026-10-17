@@ -1,3 +1,5 @@
+![Private Credit Deal Screener banner](docs/banner.png)
+
 # Private Credit Deal Screener
 
 [![tests](https://github.com/ALENZACODES/private-credit-screener/actions/workflows/tests.yml/badge.svg)](https://github.com/ALENZACODES/private-credit-screener/actions/workflows/tests.yml)
