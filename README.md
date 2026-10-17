@@ -24,7 +24,7 @@ The thresholds are my own screening framework, not an industry standard. Lenders
 
 ## Running it
 
-Open `index.html` in a browser, or serve the folder with `python3 -m http.server`. No install. Example deals are in the dropdown at the top.
+Open `index.html` in a browser, or serve the folder with `python3 -m http.server 8000` and open http://localhost:8000/. No install. Example deals are in the dropdown at the top.
 
 ## Tests
 
@@ -36,6 +36,12 @@ Open `index.html` in a browser, or serve the folder with `python3 -m http.server
 
 There's no outside data feed. Every deal in the app is a made-up example built to show the method, and the formulas are standard commercial real estate lending definitions (LTV, DSCR, debt yield, cap rate valuation). Don't enter real borrower information.
 
----
+On a phone:
 
-Educational only, not financial advice. John Khan.
+<img src="docs/screenshot-mobile.png" alt="Mobile layout" width="300">
+
+Educational only, not financial advice.
+
+## Licence
+
+MIT. Copyright 2026 John Khan.
